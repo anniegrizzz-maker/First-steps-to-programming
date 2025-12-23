@@ -1,0 +1,11 @@
+age = input('Введите ваш возраст:')
+playing_level = input('Введите уровень сложности игры (начинающий/любитель/продвинутый):')
+if playing_level == 'начинающий':
+  tennis_racket = 'Junior 26 лёгкая ракетка, длина 66 см'
+  print(f'Вам подходит {tennis_racket}')
+if playing_level == 'любитель':
+   tennis_racket = 'Fun 27  для любителей, длина 67 см'
+   print(f'Вам подходит {tennis_racket}')
+if playing_level == 'продвинутый':
+  tennis_racket = 'Pro 28, длина 69 см'
+  print(f'Вам подходит {tennis_racket}')
