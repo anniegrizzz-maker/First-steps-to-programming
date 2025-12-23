@@ -1,0 +1,29 @@
+hello_kitty = input('Введите ваш любимый цвет: ')
+colour = hello_kitty.lower()
+
+if colour == 'розовый':
+    character = 'hello kitty'
+    print(f'Ваш персонаж: {character}')
+elif colour == 'желтый':
+    character = 'pompompurin'
+    print(f'Ваш персонаж: {character}')
+elif colour == 'красный':
+    character = 'pekkle'
+    print(f'Ваш персонаж: {character}')
+elif colour == 'зеленый':
+    character = 'keroppi'
+    print(f'Ваш персонаж: {character}')
+elif colour == 'синий':
+    character = 'cinnamaroll'
+    print(f'Ваш персонаж: {character}')
+elif colour == 'белый':
+    character = 'charmmy kitty'
+    print(f'Ваш персонаж: {character}')
+elif colour == 'черный':
+    character = 'chococat'
+    print(f'Ваш персонаж: {character}')
+elif colour == 'фиолетовый':
+    character = 'kuromi'
+    print(f'Ваш персонаж: {character}')
+else:
+    print('Ошибка: Введите цвет из списка.')
