@@ -1,0 +1,23 @@
+name = input('Введите ваше имя:')
+print(f'Привет, {name}!')
+
+num1 = int(input('Введите первое число:'))
+num2 = int(input('Введите второе число:'))
+print(f'Сумма чисел равна {num1 + num2}')
+
+name = input('введите ваше имя:')
+age = int(input('введите ваш возраст:'))
+country = input('введите страну проживания:')
+print(f'{name},{age},{country}')
+
+temperature_in_Celsius = float(input('введите температуру воздуха:'))
+temperature_in_Fahrenheit = (temperature_in_Celsius * 9/5) + 32
+print(f'температура в градусах Фаренгейта равна {temperature_in_Fahrenheit}')
+
+length = float(input('введите длину:'))
+width = float(input('введите ширину:'))
+area = length * width
+print(f'площадь прямоугольника равна {area}')
+
+
+
